@@ -8,10 +8,10 @@ workflows:
       - architect/push-to-app-catalog:
           context: "architect"
           executor: "app-build-suite"
-          name: "package and push default-apps-aws chart"
+          name: "package and push default-apps-gcp chart"
           app_catalog: "cluster-catalog"
           app_catalog_test: "cluster-test-catalog"
-          chart: "default-apps-aws"
+          chart: "default-apps-gcp"
           # Trigger job on git tag.
           filters:
             tags:
