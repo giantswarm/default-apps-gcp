@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/giantswarm/default-apps-aws/HEAD/tree
+[Unreleased]: https://github.com/giantswarm/default-apps-gcp/tree/main
