@@ -1,9 +1,9 @@
 [![CircleCI](https://circleci.com/gh/giantswarm/default-apps-openstack.svg?style=shield)](https://circleci.com/gh/giantswarm/default-apps-openstack)
 
-# default-apps-aws chart
+# default-apps-gcp chart
 
-Giant Swarm offers a default-apps-aws App including the apps pre-installed in all AWS workload clusters.
-Here we define the default-apps-aws chart with its templates and default configuration.
+Giant Swarm offers a default-apps-gcp App including the apps pre-installed in all GCP workload clusters.
+Here we define the default-apps-gcp chart with its templates and default configuration.
 
 **What is this app?**
 **Why did we add it?**
