@@ -4,8 +4,8 @@ organization: ""
 apps:
   cilium:
     appName: cilium
-    chartName: cilium-app
-    catalog: default
+    chartName: cilium
+    catalog: default-test
     clusterValues:
       configMap: true
       secret: false
