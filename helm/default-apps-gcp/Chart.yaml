@@ -3,7 +3,7 @@ name: default-apps-gcp
 description: A Helm chart for default-apps-gcp
 engine: gotpl
 home: https://github.com/giantswarm/default-apps-gcp
-version: 0.1.0
+version: [[ .Version ]]
 annotations:
   application.giantswarm.io/team: "phoenix"
 restrictions:
