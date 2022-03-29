@@ -5,13 +5,13 @@ apps:
   cilium:
     appName: cilium
     chartName: cilium
-    catalog: default-test
+    catalog: default
     clusterValues:
       configMap: true
       secret: false
     forceUpgrade: false
     namespace: kube-system
-    version: 0.0.0-cc8fd13f5c84ba7b24c442317df30c65cea08675
+    version: 0.1.0
   capi-node-labeler:
     appName: capi-node-labeler
     chartName: capi-node-labeler
