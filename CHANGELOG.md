@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added coredns app
+
+### Changed
+
+- Updated Cilium to include PSPs
+
 ## [0.1.4] - 2022-03-29
 
 - Update cilium to `v0.1.0.`
