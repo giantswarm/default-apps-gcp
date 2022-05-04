@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add cert-manager and external-dns as default apps.
+
 ### Changed
 
 - Add team label to helm resources.
