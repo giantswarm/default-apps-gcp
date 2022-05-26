@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Change `cert-manager-app` name to `cert-manager` so that we use the same name that when installing from collection.
+
 ## [0.4.0] - 2022-05-13
 
 ## [0.3.0] - 2022-05-12

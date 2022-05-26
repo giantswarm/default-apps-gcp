@@ -33,7 +33,7 @@ apps:
     namespace: kube-system
     version: 2.1.0
   certManager:
-    appName: cert-manager-app
+    appName: cert-manager
     chartName: cert-manager-app
     catalog: default
     clusterValues:
