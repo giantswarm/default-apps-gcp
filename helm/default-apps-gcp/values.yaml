@@ -11,7 +11,7 @@ apps:
       secret: false
     forceUpgrade: false
     namespace: kube-system
-    version: 0.1.1
+    version: 0.2.1
   capi-node-labeler:
     appName: capi-node-labeler
     chartName: capi-node-labeler
@@ -21,7 +21,7 @@ apps:
       secret: false
     forceUpgrade: false
     namespace: kube-system
-    version: 0.3.3
+    version: 0.3.4
   certExporter:
     appName: cert-exporter
     chartName: cert-exporter
@@ -31,7 +31,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 2.1.0
+    version: 2.2.0
   certManager:
     appName: cert-manager
     chartName: cert-manager-app
@@ -41,7 +41,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 2.12.0
+    version: 2.13.0
   coreDNS:
     appName: coredns
     chartName: coredns-app
@@ -51,7 +51,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 1.8.0
+    version: 1.9.1
   externalDns:
     appName: external-dns
     chartName: external-dns-app
@@ -61,7 +61,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 2.12.0
+    version: 2.14.0
   kubeStateMetrics:
     appName: kube-state-metrics
     chartName: kube-state-metrics-app
@@ -71,7 +71,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 1.7.0
+    version: 1.10.0
   metricsServer:
     appName: metrics-server
     chartName: metrics-server-app
@@ -81,7 +81,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 1.6.0
+    version: 1.7.0
   netExporter:
     appName: net-exporter
     chartName: net-exporter
@@ -91,7 +91,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 1.10.3
+    version: 1.12.0
   nodeExporter:
     appName: node-exporter
     chartName: node-exporter-app
@@ -101,7 +101,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 1.9.0
+    version: 1.12.0
   vpa:
     appName: vertical-pod-autoscaler
     chartName: vertical-pod-autoscaler-app
@@ -111,7 +111,7 @@ apps:
       secret: false
     forceUpgrade: false
     namespace: kube-system
-    version: 2.1.2
+    version: 2.4.0
   vpaCRD:
     appName: vertical-pod-autoscaler-crd
     chartName: vertical-pod-autoscaler-crd
@@ -121,4 +121,4 @@ apps:
       secret: false
     forceUpgrade: false
     namespace: kube-system
-    version: 1.0.0
+    version: 1.0.1
