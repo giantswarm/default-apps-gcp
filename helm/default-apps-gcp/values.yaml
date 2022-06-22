@@ -1,6 +1,13 @@
 clusterName: ""
 organization: ""
 
+userConfig:
+  cilium:
+    configMap:
+      values: |
+        defaultPolicies:
+          enabled: true
+
 apps:
   cilium:
     appName: cilium
