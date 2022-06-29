@@ -35,6 +35,17 @@ spec:
       name: {{ $.Values.clusterName }}-cluster-values
       namespace: {{ $.Release.Namespace }}
   {{- end }}
+  userConfig:
+  {{- if .configMap }}
+    configMap:
+      name: {{ $.Values.clusterName }}-{{ $appName }}-user-values
+      namespace: {{ $.Release.Namespace }}
+  {{- end }}
+  {{- if .secret }}
+    secret:
+      name: {{ $.Values.clusterName }}-{{ $appName }}-user-values
+      namespace: {{ $.Release.Namespace }}
+  {{- end }}
   {{- end }}
   {{- end }}
 
