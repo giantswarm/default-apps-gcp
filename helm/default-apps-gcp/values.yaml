@@ -77,7 +77,7 @@ apps:
       configMap: true
       secret: false
     forceUpgrade: true
-    namespace: giantswarm
+    namespace: kube-system
     version: 0.2.1
   kubeStateMetrics:
     appName: kube-state-metrics
@@ -147,5 +147,5 @@ apps:
       configMap: true
       secret: false
     forceUpgrade: false
-    namespace: giantswarm
+    namespace: kube-system
     version: 0.1.0
