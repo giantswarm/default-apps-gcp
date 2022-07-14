@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add workload-identity-operator-gcp admission controller.
+
 ## [0.10.1] - 2022-07-14
 
 ### Fixed

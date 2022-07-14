@@ -139,3 +139,13 @@ apps:
     forceUpgrade: false
     namespace: kube-system
     version: 1.0.1
+  workload-identity-operator-gcp:
+    appName: workload-identity-operator-gcp
+    chartName: workload-identity-operator-gcp
+    catalog: default
+    clusterValues:
+      configMap: true
+      secret: false
+    forceUpgrade: false
+    namespace: kube-system
+    version: 0.1.0
