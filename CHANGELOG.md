@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add gcp-compute-persistent-disk-csi-driver-app app.
+
 ## [0.9.1] - 2022-07-06
 
 ### Fixed
