@@ -77,7 +77,7 @@ apps:
       configMap: true
       secret: false
     forceUpgrade: true
-    namespace: kube-system
+    namespace: giantswarm
     version: 0.2.1
   kubeStateMetrics:
     appName: kube-state-metrics
@@ -139,3 +139,13 @@ apps:
     forceUpgrade: false
     namespace: kube-system
     version: 1.0.1
+  workload-identity-operator-gcp:
+    appName: workload-identity-operator-gcp
+    chartName: workload-identity-operator-gcp
+    catalog: default
+    clusterValues:
+      configMap: true
+      secret: false
+    forceUpgrade: false
+    namespace: giantswarm
+    version: 0.1.0
