@@ -9,3 +9,4 @@ annotations:
 restrictions:
   compatibleProviders:
     - gcp
+icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
