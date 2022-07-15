@@ -78,7 +78,7 @@ apps:
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 0.2.1
+    version: 0.3.0
   kubeStateMetrics:
     appName: kube-state-metrics
     chartName: kube-state-metrics-app
