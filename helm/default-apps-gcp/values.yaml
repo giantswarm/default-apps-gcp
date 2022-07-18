@@ -142,7 +142,7 @@ apps:
   workload-identity-operator-gcp:
     appName: workload-identity-operator-gcp
     chartName: workload-identity-operator-gcp
-    catalog: control-plane
+    catalog: control-plane-catalog
     clusterValues:
       configMap: true
       secret: false
