@@ -72,13 +72,13 @@ apps:
   gcp-compute-persistent-disk-csi-driver-app:
     appName: gcp-compute-persistent-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
-    catalog: default
+    catalog: default-test
     clusterValues:
       configMap: true
       secret: false
     forceUpgrade: true
     namespace: kube-system
-    version: 0.3.0
+    version: 0.3.0-9c37fc53820746b41d7488b0416888655ead02b8
   kubeStateMetrics:
     appName: kube-state-metrics
     chartName: kube-state-metrics-app
