@@ -1,13 +1,10 @@
-This PR:
+### What this PR does / why we need it
 
-- Adds/changes/removes...
-
-### Testing
-
-- [ ] Fresh install works.
-- [ ] Upgrade from previous version works.
 
 ### Checklist
 
-- [ ] Update changelog in `CHANGELOG.md`.
-- [ ] Make sure `values.yaml` is valid.
+- [ ] Update changelog in CHANGELOG.md.
+
+### Trigger e2e tests
+
+/test create
