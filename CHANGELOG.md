@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Update kube-state-metrics to 1.11.0 to fix team label for monitoring purposes.
+
 ## [0.11.0] - 2022-07-20
 
 ### Added
