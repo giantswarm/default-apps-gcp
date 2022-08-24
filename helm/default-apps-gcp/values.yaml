@@ -5,8 +5,17 @@ userConfig:
   cilium:
     configMap:
       values: |
+        ipam:
+          mode: kubernetes
         defaultPolicies:
           enabled: true
+          tolerations:
+            - effect: NoSchedule
+              operator: Exists
+            - effect: NoExecute
+              operator: Exists
+            - key: CriticalAddonsOnly
+              operator: Exists
 
 apps:
   cilium:
