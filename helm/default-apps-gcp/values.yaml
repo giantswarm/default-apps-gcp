@@ -1,12 +1,12 @@
 clusterName: ""
 organization: ""
+gcpProject: ""
 
 userConfig:
   cilium:
     configMap:
-      values: |
-        defaultPolicies:
-          enabled: true
+      defaultPolicies:
+        enabled: true
 
 apps:
   cilium:
