@@ -104,7 +104,7 @@ apps:
     version: 0.4.0
   kubeStateMetrics:
     appName: kube-state-metrics
-    chartName: kube-state-metrics-app
+    chartName: kube-state-metrics
     catalog: default
     clusterValues:
       configMap: true
@@ -113,7 +113,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/kube-state-metrics-app
-    version: 1.11.0
+    version: 1.12.1
   metricsServer:
     appName: metrics-server
     chartName: metrics-server-app
