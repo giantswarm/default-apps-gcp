@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Update workload-identity-operator-gcp to 0.4.2 to add flag to enable the cluster reconciler
+
 ## [0.13.0] - 2022-08-25
 
 ### Changed
