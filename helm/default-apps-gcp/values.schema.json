@@ -17,17 +17,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -50,17 +39,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -85,17 +63,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -118,17 +85,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -153,17 +109,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -186,17 +131,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -221,17 +155,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -254,17 +177,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -289,17 +201,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -322,17 +223,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -357,17 +247,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -390,17 +269,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -425,17 +293,6 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
-                        },
                         "forceUpgrade": {
                             "type": "boolean"
                         },
@@ -458,17 +315,6 @@
                         },
                         "chartName": {
                             "type": "string"
-                        },
-                        "clusterValues": {
-                            "type": "object",
-                            "properties": {
-                                "configMap": {
-                                    "type": "boolean"
-                                },
-                                "secret": {
-                                    "type": "boolean"
-                                }
-                            }
                         },
                         "forceUpgrade": {
                             "type": "boolean"
@@ -493,17 +339,7 @@
             "type": "object",
             "properties": {
                 "cilium": {
-                    "type": "object",
-                    "properties": {
-                        "configMap": {
-                            "type": "object",
-                            "properties": {
-                                "values": {
-                                    "type": "string"
-                                }
-                            }
-                        }
-                    }
+                    "type": "boolean"
                 }
             }
         }

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Explicitly define Apps configmaps so we can use helm values when defining the config map content.
+
 ## [0.13.0] - 2022-08-25
 
 ### Changed
