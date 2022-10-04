@@ -46,7 +46,7 @@ data:
   values: |
     ipam:
       mode: kubernetes
-    k8sServiceHost: {{ $.Values.baseDomain }}
+    k8sServiceHost: api.{{ $.Values.baseDomain }}
     k8sServicePort: 443
     kubeProxyReplacement: strict
     hubble:

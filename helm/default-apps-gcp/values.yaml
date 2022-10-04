@@ -32,7 +32,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-exporter
-    version: 2.2.0
+    version: 2.3.0
   certManager:
     appName: cert-manager
     chartName: cert-manager-app
@@ -41,7 +41,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-manager-app
-    version: 2.15.3
+    version: 2.17.0
   coreDNS:
     appName: coredns
     chartName: coredns-app
@@ -59,7 +59,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/external-dns-app
-    version: 2.15.2
+    version: 2.15.4
   gcp-compute-persistent-disk-csi-driver-app:
     appName: gcp-compute-persistent-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
@@ -71,13 +71,13 @@ apps:
     version: 0.4.0
   kubeStateMetrics:
     appName: kube-state-metrics
-    chartName: kube-state-metrics-app
+    chartName: kube-state-metrics
     catalog: default
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/kube-state-metrics-app
-    version: 1.11.0
+    version: 1.14.0
   metricsServer:
     appName: metrics-server
     chartName: metrics-server-app
@@ -86,7 +86,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/metrics-server-app
-    version: 1.8.0
+    version: 2.0.0
   netExporter:
     appName: net-exporter
     chartName: net-exporter
@@ -131,4 +131,4 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
-    version: 0.3.2
+    version: 0.4.2
