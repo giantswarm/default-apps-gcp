@@ -185,4 +185,4 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
-    version: 0.4.2
+    version: 0.4.3
