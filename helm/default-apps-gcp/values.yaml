@@ -68,7 +68,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/giantswarm/gcp-compute-persistent-disk-csi-driver-app
-    version: 0.4.0
+    version: 0.5.0
   kubeStateMetrics:
     appName: kube-state-metrics
     chartName: kube-state-metrics
@@ -131,4 +131,4 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
-    version: 0.4.2
+    version: 0.4.3

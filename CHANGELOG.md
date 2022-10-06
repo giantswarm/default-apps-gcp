@@ -7,15 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.2] - 2022-10-05
+
 ### Changed
 
+- Update workload-identity-operator-gcp version version to 0.4.3.
+- Update gcp-compute-persistent-disk-csi-driver-app version to 0.5.0.
 - Explicitly define Apps configmaps so we can use helm values when defining the config map content.
 
 ## [0.13.1] - 2022-09-27
 
 ### Changed
 
-- Update workload-identity-operator-gcp to 0.4.2 to add flag to enable the cluster reconciler
+- Update workload-identity-operator-gcp to 0.4.2 to add flag to enable the cluster reconciler.
 
 ## [0.13.0] - 2022-08-25
 
@@ -134,7 +138,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix cilium app.
 
 
-[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.1...HEAD
+[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.2...HEAD
+[0.13.2]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.1...v0.13.2
 [0.13.1]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.0...v0.13.1
 [0.13.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.11.0...v0.12.0
