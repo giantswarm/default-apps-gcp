@@ -29,7 +29,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cilium-app
-    version: 0.2.6
+    version: 0.3.0
   capi-node-labeler:
     appName: capi-node-labeler
     chartName: capi-node-labeler
