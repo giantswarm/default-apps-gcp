@@ -11,14 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update workload-identity-operator-gcp version version to 0.4.3
-- Update gcp-compute-persistent-disk-csi-driver-app version to 0.5.0
+- Update workload-identity-operator-gcp version version to 0.4.3.
+- Update gcp-compute-persistent-disk-csi-driver-app version to 0.5.0.
+- Explicitly define Apps configmaps so we can use helm values when defining the config map content.
 
 ## [0.13.1] - 2022-09-27
 
 ### Changed
 
-- Update workload-identity-operator-gcp to 0.4.2 to add flag to enable the cluster reconciler
+- Update workload-identity-operator-gcp to 0.4.2 to add flag to enable the cluster reconciler.
 
 ## [0.13.0] - 2022-08-25
 

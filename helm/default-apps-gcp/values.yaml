@@ -1,30 +1,15 @@
 clusterName: ""
 organization: ""
 
+# Add to this map the Apps that have a 'user-values' configmap defined in apps.yaml.
 userConfig:
-  cilium:
-    configMap:
-      values: |
-        ipam:
-          mode: kubernetes
-        defaultPolicies:
-          enabled: true
-          tolerations:
-            - effect: NoSchedule
-              operator: Exists
-            - effect: NoExecute
-              operator: Exists
-            - key: CriticalAddonsOnly
-              operator: Exists
+  cilium: true
 
 apps:
   cilium:
     appName: cilium
     chartName: cilium
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: false
     namespace: kube-system
     # used by renovate
@@ -34,9 +19,6 @@ apps:
     appName: capi-node-labeler
     chartName: capi-node-labeler
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: false
     namespace: kube-system
     # used by renovate
@@ -46,9 +28,6 @@ apps:
     appName: cert-exporter
     chartName: cert-exporter
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -58,9 +37,6 @@ apps:
     appName: cert-manager
     chartName: cert-manager-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -70,9 +46,6 @@ apps:
     appName: coredns
     chartName: coredns-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -82,9 +55,6 @@ apps:
     appName: external-dns
     chartName: external-dns-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -94,9 +64,6 @@ apps:
     appName: gcp-compute-persistent-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -106,9 +73,6 @@ apps:
     appName: kube-state-metrics
     chartName: kube-state-metrics
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -118,9 +82,6 @@ apps:
     appName: metrics-server
     chartName: metrics-server-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -130,9 +91,6 @@ apps:
     appName: net-exporter
     chartName: net-exporter
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -142,9 +100,6 @@ apps:
     appName: node-exporter
     chartName: node-exporter-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: true
     namespace: kube-system
     # used by renovate
@@ -154,9 +109,6 @@ apps:
     appName: vertical-pod-autoscaler
     chartName: vertical-pod-autoscaler-app
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: false
     namespace: kube-system
     # used by renovate
@@ -166,9 +118,6 @@ apps:
     appName: vertical-pod-autoscaler-crd
     chartName: vertical-pod-autoscaler-crd
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: false
     namespace: kube-system
     # used by renovate
@@ -178,9 +127,6 @@ apps:
     appName: workload-identity-operator-gcp
     chartName: workload-identity-operator-gcp
     catalog: default
-    clusterValues:
-      configMap: true
-      secret: false
     forceUpgrade: false
     namespace: kube-system
     # used by renovate
