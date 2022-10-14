@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Bumped Cilium to 0.4.1
+
 ## [0.14.0] - 2022-10-10
 
 ## [0.13.2] - 2022-10-05
@@ -34,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update kube-state-metrics to 1.11.0 to fix team label for monitoring purposes.
-- Update workload-identity-operator-gcp to 0.3.1 
+- Update workload-identity-operator-gcp to 0.3.1
 
 ## [0.11.0] - 2022-07-20
 
