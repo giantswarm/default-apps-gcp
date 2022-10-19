@@ -14,7 +14,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cilium-app
-    version: 0.3.0
+    version: 0.5.0
   capi-node-labeler:
     appName: capi-node-labeler
     chartName: capi-node-labeler
@@ -41,7 +41,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-manager-app
-    version: 2.17.0
+    version: 2.17.1
   coreDNS:
     appName: coredns
     chartName: coredns-app
@@ -131,4 +131,4 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
-    version: 0.4.3
+    version: 0.5.0

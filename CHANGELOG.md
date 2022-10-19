@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.14.3] - 2022-10-18
+
+### Changed
+
+- Bumped Cilium to 0.5.0
+
+## [0.14.2] - 2022-10-14
+
+### Fixed
+
+- Bumped Cilium to 0.4.2
+
+## [0.14.1] - 2022-10-14
+
+### Changed
+
+- Bumped Cilium to 0.4.1
+
 ## [0.14.0] - 2022-10-10
 
 ## [0.13.2] - 2022-10-05
@@ -34,7 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update kube-state-metrics to 1.11.0 to fix team label for monitoring purposes.
-- Update workload-identity-operator-gcp to 0.3.1 
+- Update workload-identity-operator-gcp to 0.3.1
 
 ## [0.11.0] - 2022-07-20
 
@@ -140,7 +158,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix cilium app.
 
 
-[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.0...HEAD
+[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.3...HEAD
+[0.14.3]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.2...v0.14.3
+[0.14.2]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.1...v0.14.2
+[0.14.1]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.2...v0.14.0
 [0.13.2]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.1...v0.13.2
 [0.13.1]: https://github.com/giantswarm/default-apps-gcp/compare/v0.13.0...v0.13.1
