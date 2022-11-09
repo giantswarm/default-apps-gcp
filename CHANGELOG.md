@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.15.0] - 2022-11-09
+
 ### Changed
 
 - Update external-dns to v2.16.0. This version uses workload-identity as an authentication method
@@ -162,7 +164,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix cilium app.
 
 
-[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.3...HEAD
+[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.15.0...HEAD
+[0.15.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.3...v0.15.0
 [0.14.3]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.2...v0.14.3
 [0.14.2]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.1...v0.14.2
 [0.14.1]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.0...v0.14.1
