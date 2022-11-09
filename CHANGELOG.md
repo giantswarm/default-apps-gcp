@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Update external-dns to v2.16.0. This version uses workload-identity as an authentication method
+
 ## [0.14.3] - 2022-10-18
 
 ### Changed
