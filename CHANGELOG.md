@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-Add cluster-resources-app so that a cilium cluster wide policy is deployed to allow all egress traffic.
+- Add cluster-resources-app so that a cilium cluster wide policy is deployed to allow all egress traffic.
 
 ## [0.15.0] - 2022-11-09
 
