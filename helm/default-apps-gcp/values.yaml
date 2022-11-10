@@ -42,6 +42,18 @@ apps:
     # used by renovate
     # repo: giantswarm/cert-manager-app
     version: 2.17.1
+  clusterResources:
+    appName: cluster-resources
+    chartName: cluster-resources
+    catalog: default
+    clusterValues:
+      configMap: false
+      secret: false
+    forceUpgrade: false
+    namespace: kube-system
+    # used by renovate
+    # repo: giantswarm/cluster-resources-app
+    version: 0.1.1
   coreDNS:
     appName: coredns
     chartName: coredns-app
