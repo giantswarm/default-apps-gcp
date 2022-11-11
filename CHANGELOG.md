@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Bumped external-dns to v2.18.0
 
+### Added
+
+- Supports bundles
+- Add observability-bundle app
+
 ## [0.15.0] - 2022-11-09
 
 ### Changed

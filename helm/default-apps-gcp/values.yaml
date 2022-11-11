@@ -132,3 +132,12 @@ apps:
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
     version: 0.5.0
+  observability-bundle:
+    appName: observability-bundle
+    chartName: observability-bundle
+    catalog: default
+    namespace: ""
+    inCluster: true
+    # used by renovate
+    # repo: giantswarm/observability-bundle
+    version: 0.1.2
