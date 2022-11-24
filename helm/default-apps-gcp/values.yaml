@@ -135,7 +135,7 @@ apps:
   observability-bundle:
     appName: observability-bundle
     chartName: observability-bundle
-    catalog: default
+    catalog: default-test
     namespace: ""
     inCluster: true
     # used by renovate
