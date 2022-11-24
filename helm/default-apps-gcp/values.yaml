@@ -140,4 +140,4 @@ apps:
     inCluster: true
     # used by renovate
     # repo: giantswarm/observability-bundle
-    version: 0.1.2
+    version: 0.1.2-5f589021a9ff52ec441f9d2348d1dc29a08e8114
