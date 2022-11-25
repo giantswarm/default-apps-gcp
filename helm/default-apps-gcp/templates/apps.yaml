@@ -8,13 +8,20 @@ metadata:
     chart-operator.giantswarm.io/force-helm-upgrade: "{{ .forceUpgrade }}"
   labels:
     {{- include "labels.common" $ | nindent 4 }}
+    {{- if .inCluster }}
+    app-operator.giantswarm.io/version: 0.0.0
+    {{- end }}
   name: {{ $.Values.clusterName }}-{{ $appName }}
   namespace: {{ $.Release.Namespace }}
 spec:
   catalog: {{ .catalog }}
   name: {{ .chartName }}
+  {{- if .inCluster }}
+  namespace: {{ $.Release.Namespace }}
+  kubeConfig:
+    inCluster: true
+  {{- else }}
   namespace: {{ .namespace }}
-  version: {{ .version }}
   kubeConfig:
     context:
       name: {{ $.Values.clusterName }}-admin@{{ $.Values.clusterName }}
@@ -22,6 +29,8 @@ spec:
     secret:
       name: {{ $.Values.clusterName }}-kubeconfig
       namespace: {{ $.Release.Namespace}}
+  {{- end }}
+  version: {{ .version }}
   config:
     configMap:
       name: {{ $.Values.clusterName }}-cluster-values
