@@ -14,7 +14,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cilium-app
-    version: 0.5.0
+    version: 0.6.1
   capi-node-labeler:
     appName: capi-node-labeler
     chartName: capi-node-labeler
@@ -41,7 +41,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-manager-app
-    version: 2.17.1
+    version: 2.18.0
   clusterResources:
     appName: cluster-resources
     chartName: cluster-resources
@@ -71,7 +71,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/external-dns-app
-    version: 2.16.0
+    version: 2.19.0
   gcp-compute-persistent-disk-csi-driver-app:
     appName: gcp-compute-persistent-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
@@ -89,7 +89,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/kube-state-metrics-app
-    version: 1.14.0
+    version: 1.14.1
   metricsServer:
     appName: metrics-server
     chartName: metrics-server-app
@@ -144,3 +144,12 @@ apps:
     # used by renovate
     # repo: giantswarm/workload-identity-operator-gcp
     version: 0.5.0
+  observability-bundle:
+    appName: observability-bundle
+    chartName: observability-bundle
+    catalog: default
+    namespace: ""
+    inCluster: true
+    # used by renovate
+    # repo: giantswarm/observability-bundle
+    version: 0.1.3

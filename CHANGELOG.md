@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add cluster-resources-app so that a cilium cluster wide policy is deployed to allow all egress traffic.
 
+## [0.16.0] - 2022-11-25
+
+### Changed
+
+- Bumped external-dns to v2.18.0
+
+### Added
+
+- Supports bundles
+- Add observability-bundle app
+
 ## [0.15.0] - 2022-11-09
 
 ### Changed
@@ -168,7 +179,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix cilium app.
 
 
-[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.15.0...HEAD
+[Unreleased]: https://github.com/giantswarm/default-apps-gcp/compare/v0.16.0...HEAD
+[0.16.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.3...v0.15.0
 [0.14.3]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.2...v0.14.3
 [0.14.2]: https://github.com/giantswarm/default-apps-gcp/compare/v0.14.1...v0.14.2
