@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.17.0] - 2023-01-06
 
+### Changed
+
+- Update `giantswarm/cert-exporter` to `2.3.1`
+- Update `giantswarm/coredns-app` to `1.12.0`
+- Update `giantswarm/external-dns-app` to `2.21.0`
+- Update `giantswarm/node-exporter-app` to `1.14.1`
+- Update `giantswarm/vertical-pod-autoscaler-app` to `2.5.2`
+
 ## [0.16.1] - 2022-12-07
 
 ### Changed
