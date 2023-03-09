@@ -59,7 +59,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/external-dns-app
-    version: 2.23.2
+    version: 2.33.0
   gcp-compute-persistent-disk-csi-driver-app:
     appName: gcp-compute-persistent-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
