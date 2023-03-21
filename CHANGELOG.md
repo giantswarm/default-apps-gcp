@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update `observability-bundle` from `0.1.9` to `0.2.0`
 
+### Added
+
+- New app dependency mechanism (`app-operator.giantswarm.io/depends-on`) to the vertical-pod-autoscaler-app it is not installed until the corresponding CRD app is deployed.
+
 ## [0.18.1] - 2023-01-18
 
 ### Changed
