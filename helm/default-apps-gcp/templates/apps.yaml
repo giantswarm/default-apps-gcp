@@ -7,7 +7,7 @@ metadata:
   annotations:
     chart-operator.giantswarm.io/force-helm-upgrade: "{{ .forceUpgrade }}"
     {{- if .dependsOn }}
-    # App is deployed in the org- namespace so the secret name is prefixed by the cluster-id
+    # app-operator will make sure that the app on which it depends is installed before
     app-operator.giantswarm.io/depends-on: {{ printf "%s-%s" $.Values.clusterID .dependsOn -}}
     {{- end }}
   labels:
