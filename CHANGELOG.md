@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove kube-state-metrics app as it is now included in the observability-bundle.
 
+### Added
+
+- New app dependency mechanism (`app-operator.giantswarm.io/depends-on`) to the vertical-pod-autoscaler-app it is not installed until the corresponding CRD app is deployed.
+
 ## [0.18.1] - 2023-01-18
 
 ### Changed
