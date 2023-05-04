@@ -69,15 +69,6 @@ apps:
     # used by renovate
     # repo: giantswarm/giantswarm/gcp-compute-persistent-disk-csi-driver-app
     version: 0.5.0
-  kubeStateMetrics:
-    appName: kube-state-metrics
-    chartName: kube-state-metrics
-    catalog: default
-    forceUpgrade: true
-    namespace: kube-system
-    # used by renovate
-    # repo: giantswarm/kube-state-metrics-app
-    version: 1.14.2
   metricsServer:
     appName: metrics-server
     chartName: metrics-server-app
@@ -142,4 +133,4 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/observability-bundle
-    version: 0.2.0
+    version: 0.4.0
