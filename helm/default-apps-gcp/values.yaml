@@ -4,7 +4,21 @@ organization: ""
 # Add to this map the Apps that have a 'user-values' configmap defined in apps.yaml.
 userConfig:
   cilium: true
-
+  externalDns:
+    configMap:
+      values: |
+        provider: google
+        serviceAccount:
+          annotations:
+            giantswarm.io/gcp-service-account: external-dns-app@{{ .Values.gcpProject }}.iam.gserviceaccount.com
+        domainFilters:
+          - {{ .Values.baseDomain }}
+        txtOwnerId: giantswarm-{{ .Values.clusterName }}
+        annotationFilter: giantswarm.io/external-dns=managed
+        podLabels:
+          giantswarm.io/gcp-workload-identity: enabled
+        sources:
+          - service
 apps:
   cilium:
     appName: cilium
