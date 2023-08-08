@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update `observability-bundle` from `0.1.9` to `0.2.0`
 - Bump `observability-bundle` to `0.4.0`.
+- Set explicit values for `external-dns`.
 
 ### Removed
 
