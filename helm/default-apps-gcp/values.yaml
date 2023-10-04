@@ -56,6 +56,17 @@ apps:
     # used by renovate
     # repo: giantswarm/cert-manager-app
     version: 2.19.0
+  chartOperatorExtensions:
+    appName: chart-operator-extensions
+    chartName: chart-operator-extensions
+    catalog: default
+    enabled: true
+    clusterValues:
+      configMap: true
+      secret: true
+    dependsOn: prometheus-operator-crd
+    namespace: giantswarm
+    version: 1.1.1
   coreDNS:
     appName: coredns
     chartName: coredns-app
