@@ -74,6 +74,43 @@
                         }
                     }
                 },
+                "chartOperatorExtensions": {
+                    "type": "object",
+                    "properties": {
+                        "appName": {
+                            "type": "string"
+                        },
+                        "catalog": {
+                            "type": "string"
+                        },
+                        "chartName": {
+                            "type": "string"
+                        },
+                        "clusterValues": {
+                            "type": "object",
+                            "properties": {
+                                "configMap": {
+                                    "type": "boolean"
+                                },
+                                "secret": {
+                                    "type": "boolean"
+                                }
+                            }
+                        },
+                        "dependsOn": {
+                            "type": "string"
+                        },
+                        "enabled": {
+                            "type": "boolean"
+                        },
+                        "namespace": {
+                            "type": "string"
+                        },
+                        "version": {
+                            "type": "string"
+                        }
+                    }
+                },
                 "cilium": {
                     "type": "object",
                     "properties": {
@@ -247,10 +284,10 @@
                         "chartName": {
                             "type": "string"
                         },
-                        "inCluster": {
+                        "forceUpgrade": {
                             "type": "boolean"
                         },
-                        "forceUpgrade": {
+                        "inCluster": {
                             "type": "boolean"
                         },
                         "namespace": {
@@ -271,6 +308,9 @@
                             "type": "string"
                         },
                         "chartName": {
+                            "type": "string"
+                        },
+                        "dependsOn": {
                             "type": "string"
                         },
                         "forceUpgrade": {
@@ -343,6 +383,19 @@
             "properties": {
                 "cilium": {
                     "type": "boolean"
+                },
+                "externalDns": {
+                    "type": "object",
+                    "properties": {
+                        "configMap": {
+                            "type": "object",
+                            "properties": {
+                                "values": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
