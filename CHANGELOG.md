@@ -23,6 +23,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New app dependency mechanism (`app-operator.giantswarm.io/depends-on`) to the vertical-pod-autoscaler-app it is not installed until the corresponding CRD app is deployed.
 - Added `chart-operator-extension` version `v1.1.1` that contains e.g. `ServiceMonitors` for `chart-operator`.
 
+### Fixed
+
+- Shortened `gcp-compute-persistent-disk-csi-driver-app` appName to `gcp-comp-p-disk-csi-driver` to avoid issues with longer cluster names.
+
 ## [0.18.1] - 2023-01-18
 
 ### Changed

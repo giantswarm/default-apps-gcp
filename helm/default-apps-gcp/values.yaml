@@ -88,7 +88,7 @@ apps:
     # repo: giantswarm/external-dns-app
     version: 2.33.0
   gcp-compute-persistent-disk-csi-driver-app:
-    appName: gcp-compute-persistent-disk-csi-driver
+    appName: gcp-comp-p-disk-csi-driver
     chartName: gcp-compute-persistent-disk-csi-driver
     catalog: default
     forceUpgrade: true
